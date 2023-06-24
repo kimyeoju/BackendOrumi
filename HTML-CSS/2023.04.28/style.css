@@ -1,0 +1,66 @@
+h1 {
+  margin: 0px;
+}
+h1,
+h2 {
+  text-align: center;
+}
+h2 {
+  padding-bottom: 50px;
+  color: gray;
+  font-weight: normal;
+}
+input[type="text"] {
+  width: 365px;
+  height: 32px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 30px; /* 박스랑 아이디 떨어뜨리는데 margin-left */
+  margin-bottom: 18px;
+}
+
+fieldset {
+  border: 0px;
+  margin: 0px;
+  padding-left: 0px;
+  font-size: 17px;
+  padding-bottom: 30px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+li {
+  float: left;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+legend {
+  display: inline;
+  float: left;
+  padding-right: 1px;
+  padding-top: 17px;
+}
+
+button[type="button"] {
+  width: 500px;
+  height: 40px;
+  background-color: royalblue;
+  color: white;
+  border: 1px solid royalblue;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: bold;
+  box-sizing: content-box;
+  border-width: 0 0 3px 0;
+}
+
+/* 센세가한 거 */
+
+.field {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
