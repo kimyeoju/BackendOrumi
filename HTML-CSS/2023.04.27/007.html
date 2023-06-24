@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>선택자</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        border: 5px solid royalblue;
+        padding: 20px;
+      }
+      p {
+        color: red;
+      }
+      #hello {
+        border: 1px solid salmon;
+      }
+      .hi {
+        background-color: yellow;
+      }
+
+      [type] {
+        border: 1px solid red;
+      }
+      input[type="email"],
+      input[type="text"],
+      input[type="url"] {
+        border: 1px solid navy;
+      }
+
+      input[type="checkbox"] {
+        margin-right: 10px;
+      }
+
+      /*.h1 선택적 클래스 id,class는 숫자로 시작하면 안됨! 
+      하이픈과 언더바 문자로만 시작할 수 있다. */
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <h1 class="hi">Hello</h1>
+      <p>Hello</p>
+      <p>Hello</p>
+      <button type="button">Hello</button>
+
+      <label for="text">text</label>
+      <input id="text" type="text" /> <br />
+
+      <label for="email">email</label>
+      <input type="email" id="email" />
+    </div>
+  </body>
+</html>
